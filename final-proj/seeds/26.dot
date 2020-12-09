@@ -1,0 +1,17 @@
+digraph G {
+  node [shape=box]
+
+  aaa -> bbb
+  aaa -> BBB
+  AAA -> BBB
+  AAA -> bbb
+}
+
+digraph G {
+  node [shape=box]
+
+  aaa -> bbb
+  aaa -> BBB
+  AAA -> BBB
+  AAA -> bbb
+}

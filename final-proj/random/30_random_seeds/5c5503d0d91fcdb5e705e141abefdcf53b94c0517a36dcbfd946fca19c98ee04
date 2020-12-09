@@ -1,0 +1,97 @@
+digraph g {
+	concentrate=true;
+	node [shape = record];
+	Stand [ label = " <In> Stand | | <Normal> Normal | | <Target> Target "];
+	FaceBack [ label = " <In> FaceBack | | <Always> Always "];
+	subgraph clusterWalking {
+		label = walking;
+		Walk [ label = " <In> Walk | | <Normal> Normal | | <Target> Target "];
+		WalkStepUp [ label = " <In> WalkStepUp | | <Normal> Normal "];
+		WalkStepDown [ label = " <In> WalkStepDown | | <Normal> Normal "];
+	}
+	subgraph cluster0 {
+		label = running;
+		Run [ label = " <In> Run | | { <Normal> Normal | | <Target> Target }"];
+		RunToStop [ label = " <In> RunToStop | | <Always> Always "];
+		RunStepUp [ label = " <In> RunStepUp | | <Normal> Normal "];
+		RunStepDown [ label = " <In> RunStepDown | | <Normal> Normal "];
+	}
+	Strafe [ label = " <In> Strafe | | <Always> Always "];
+	JumpVertical [ label = " <In> JumpVertical | | <Normal> Normal | | <Target> Target "];
+	JumpRunning [ label = " <In> JumpRunning | | <Normal> Normal | | <Target> Target "];
+	MidJump [ label = " <In> MidJump | | <Normal> Normal | | <Target> Target "];
+	MidJumpFaceBack [ label = " <In> MidJumpFaceBack | | <Normal> Normal "];
+	LandVertical [ label = " <In> LandVertical | | <Normal> Normal | | <Target> Target "];
+	LandRunning [ label = " <In> LandRunning | | <Normal> Normal | | <Target> Target "];
+	Fall [ label = " <In> Fall | | <Normal> Normal | | <Target> Target "];
+	FallFaceBack [ label = " <In> FallFaceBack | | <Normal> Normal "];
+	Flight [ label = " <In> Flight | | <Normal> Normal | | <Target> Target | | <Target> Target | | <Target> Target "];
+	FlightToHover [ label = " <In> FlightToHover | | <Normal> Normal | | <Target> Target "];
+	FlightStrafe [ label = " <In> FlightStrafe | | <Normal> Normal "];
+	subgraph cluster4 {
+		label = FPM;
+		FPMStand [ label = " <In> FPMStand | | <Always> Always "];
+		FPMRotate [ label = " <In> FPMRotate | | <Always> Always "];
+		FPMStep [ label = " <In> FPMStep | | <Always> Always "];
+		FPMCenter [ label = " <In> FPMCenter | | <Always> Always "];
+	}
+	subgraph cluster2 {
+		label = FPMHover;
+		FPMHover [ label = " <In> FPMHover | | <Always> Always "];
+		FPMHoverRotate [ label = " <In> FPMHoverRotate | | <Always> Always "];
+		FPMHoverStep [ label = " <In> FPMHoverStep | | <Always> Always "];
+		FPMHoverCenter [ label = " <In> FPMHoverCenter | | <Always> Always "];
+	}
+	subgraph cluster3 {
+		label = hover;
+		HoverRest [ label = " <In> HoverRest | | <Normal> Normal | | <Target> Target "];
+		HoverForward [ label = " <In> HoverForward | | <Normal> Normal | | <Target> Target "];
+		HoverForwardToStop [ label = " <In> HoverForwardToStop | | <Normal> Normal | | <Target> Target "];
+		HoverFaceBack [ label = " <In> HoverFaceBack | | <Normal> Normal "];
+		HoverStrafeToStop [ label = " <In> HoverStrafeToStop | | <Normal> Normal | | <Target> Target "];
+		HoverStrafe [ label = " <In> HoverStrafe | | <Normal> Normal | | <Target> Target "];
+	}
+	HoverToFlight [ label = " <In> HoverToFlight | | <Normal> Normal | | <Target> Target "];
+	Stand:Normal->FPMStand:In
+	Stand:Normal->Fall:In
+	Stand:Normal->JumpVertical:In
+	Stand:Normal->Walk:In
+	Stand:Normal->Strafe:In
+	Stand:Normal->FaceBack:In
+	Stand:Target->FPMStand:In
+	Stand:Target->Fall:In
+	Stand:Target->JumpVertical:In
+	Stand:Target->Walk:In
+	FaceBack:Always->Fall:In
+	FaceBack:Always->JumpVertical:In
+	FaceBack:Always->Stand:In
+	Walk:Normal->Fall:In
+	Walk:Normal->Stand:In
+	Walk:Normal->Stand:In
+	Walk:Normal->JumpRunning:In
+	Walk:Normal->WalkStepUp:In
+	Walk:Normal->WalkStepDown:In
+	Walk:Normal->Run:In
+	Walk:Normal->Strafe:In
+	Walk:Normal->FaceBack:In
+	Walk:Target->Fall:In
+	Walk:Target->Stand:In
+	Walk:Target->Stand:In
+	Walk:Target->JumpRunning:In
+	Walk:Target->WalkStepUp:In
+	Walk:Target->WalkStepDown:In
+	Walk:Target->Run:In
+	WalkStepUp:Normal->Fall:In
+	WalkStepUp:Normal->Walk:In
+	WalkStepDown:Normal->Fall:In
+	WalkStepDown:Normal->Walk:In
+	Run:Normal->Fall:In
+	Run:Normal->RunToStop:In
+	Run:Normal->RunToStop:In
+	Run:Normal->Walk:In
+	Run:Normal->JumpRunning:In
+	Run:Normal->RunStepUp:In
+	Run:Normal->RunStepDown:In
+	Run:Normal->Strafe:In
+	Run:Normal->FaceBack:In
+	Run:Target->Fal

@@ -1,0 +1,495 @@
+
+functions called:
+filename: ./drivers/pydotplus_2.py, modulename: pydotplus_2, funcname: <module>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/__init__.py, modulename: __init__, funcname: <module>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: <listcomp>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: <module>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Cluster
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Common
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Common.create_attribute_methods
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Common.get_parent_graph
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Common.set_parent_graph
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Common.set_sequence
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Dot
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Dot.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Edge
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Edge.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Edge.get_destination
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Edge.get_source
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Error
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Graph
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Graph.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Graph.add_edge
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Graph.get_next_sequence_number
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Graph.set_name
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Graph.set_parent_graph
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: InvocationException
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Node
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: Subgraph
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: frozendict
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: graph_from_dot_data
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: needs_quotes
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py, modulename: graphviz, funcname: quote_if_necessary
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: <listcomp>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: <module>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: DefaultStatement
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: P_AttrList
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: add_defaults
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: add_elements
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: do_node_ports
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: graph_definition
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: parse_dot_data
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: push_edge_stmt
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: push_top_graph_stmt
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py, modulename: parser, funcname: update_parent_graph_hierarchy
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: <genexpr>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: <lambda>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: <listcomp>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: <module>
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: And
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: And.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: And.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: And.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: And.streamline
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Arabic
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CJK
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CaselessKeyword
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CaselessLiteral
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CaselessLiteral.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CaselessLiteral.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Char
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CharsNotIn
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CharsNotIn.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CharsNotIn.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CharsNotIn.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Chinese
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: CloseMatch
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Combine
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Combine.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Combine.ignore
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Cyrillic
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Devanagari
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Dict
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Dict.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Each
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Empty
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Empty.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: FollowedBy
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward.__ilshift__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward.__lshift__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward.leaveWhitespace
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Forward.streamline
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: GoToColumn
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Greek
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Group
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Group.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Group.postParse
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Hebrew
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Hiragana
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Japanese
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Kanji
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Katakana
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Keyword
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Korean
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Latin1
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: LatinA
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: LatinB
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: LineEnd
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: LineEnd.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: LineStart
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: LineStart.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Literal
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Literal.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Literal.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: MatchFirst
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: MatchFirst.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: MatchFirst.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: MatchFirst.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: MatchFirst.streamline
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: NoMatch
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: NotAny
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: NotAny.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: NotAny.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: OneOrMore
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: OneOrMore.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: OnlyOnce
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Optional
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Optional.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Optional.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Optional.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Or
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseBaseException
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseBaseException.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance.ignore
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance.leaveWhitespace
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseElementEnhance.streamline
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseException
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression._setResultsName
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression.copy
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression.ignore
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression.leaveWhitespace
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseExpression.streamline
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseFatalException
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__bool__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__getattr__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__getitem__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__iadd__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__iter__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__len__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.__setitem__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseResults.haskeys
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParseSyntaxException
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__add__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__call__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__eq__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__invert__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__mul__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__or__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__radd__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement._parseNoCache
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement._setResultsName
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement._skipIgnorables
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.addCondition
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.addParseAction
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.copy
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.ignore
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.leaveWhitespace
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.parseString
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.parseWithTabs
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.postParse
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.preParse
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.setName
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.setParseAction
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.setResultsName
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.setWhitespaceChars
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.streamline
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ParserElement.suppress
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: PrecededBy
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: QuotedString
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: QuotedString.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: QuotedString.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: QuotedString.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: RecursiveGrammarException
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Regex
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Regex.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Regex.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Regex.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: SkipTo
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: SkipTo.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: StringEnd
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: StringEnd.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: StringStart
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: StringStart.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Suppress
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Suppress.postParse
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: TestParseResultsAsserts
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Thai
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Token
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Token.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: TokenConverter
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: TokenConverter.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: White
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: White.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Word
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Word.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Word.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: Word.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: WordEnd
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: WordStart
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ZeroOrMore
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ZeroOrMore.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: ZeroOrMore.__str__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _ErrorStop
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _FifoCache
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _MultipleMatch
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _MultipleMatch.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _MultipleMatch.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _MultipleMatch.stopOn
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _NullToken
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _ParseResultsWithOffset
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _ParseResultsWithOffset.__getitem__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _ParseResultsWithOffset.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _PendingSkip
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _PositionToken
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _PositionToken.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _SingleCharLiteral
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _SingleCharLiteral.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _UnboundedCache
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _WordRegex
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _WordRegex.parseImpl
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: __new__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _escapeRegexRangeChars
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _lazyclassproperty
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _lazyclassproperty.__init__
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _makeTags
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: _trim_arity
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: charsAsStr
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: conditionAsParseAction
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: delimitedList
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: extract_stack
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: makeHTMLTags
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: makeOptionalList
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: nestedExpr
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: pyparsing_common
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: pyparsing_test
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: pyparsing_unicode
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: resetCache
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: reset_pyparsing_context
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: srange
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: tokenMap
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: unicode_set
+filename: /home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py, modulename: pyparsing, funcname: wrapper
+filename: /usr/lib/python3.8/__future__.py, modulename: __future__, funcname: <module>
+filename: /usr/lib/python3.8/__future__.py, modulename: __future__, funcname: _Feature
+filename: /usr/lib/python3.8/__future__.py, modulename: __future__, funcname: _Feature.__init__
+filename: /usr/lib/python3.8/_collections_abc.py, modulename: _collections_abc, funcname: __subclasshook__
+filename: /usr/lib/python3.8/_collections_abc.py, modulename: _collections_abc, funcname: _check_methods
+filename: /usr/lib/python3.8/abc.py, modulename: abc, funcname: ABCMeta.__instancecheck__
+filename: /usr/lib/python3.8/abc.py, modulename: abc, funcname: ABCMeta.__subclasscheck__
+filename: /usr/lib/python3.8/abc.py, modulename: abc, funcname: ABCMeta.register
+filename: /usr/lib/python3.8/abc.py, modulename: abc, funcname: __new__
+filename: /usr/lib/python3.8/abc.py, modulename: abc, funcname: abstractmethod
+filename: /usr/lib/python3.8/bisect.py, modulename: bisect, funcname: <module>
+filename: /usr/lib/python3.8/codecs.py, modulename: codecs, funcname: BufferedIncrementalDecoder.__init__
+filename: /usr/lib/python3.8/codecs.py, modulename: codecs, funcname: BufferedIncrementalDecoder.decode
+filename: /usr/lib/python3.8/codecs.py, modulename: codecs, funcname: IncrementalDecoder.__init__
+filename: /usr/lib/python3.8/collections/__init__.py, modulename: __init__, funcname: <genexpr>
+filename: /usr/lib/python3.8/collections/__init__.py, modulename: __init__, funcname: namedtuple
+filename: /usr/lib/python3.8/contextlib.py, modulename: contextlib, funcname: contextmanager
+filename: /usr/lib/python3.8/copy.py, modulename: copy, funcname: <module>
+filename: /usr/lib/python3.8/copy.py, modulename: copy, funcname: Error
+filename: /usr/lib/python3.8/copy.py, modulename: copy, funcname: _reconstruct
+filename: /usr/lib/python3.8/copy.py, modulename: copy, funcname: copy
+filename: /usr/lib/python3.8/copyreg.py, modulename: copyreg, funcname: __newobj__
+filename: /usr/lib/python3.8/copyreg.py, modulename: copyreg, funcname: _slotnames
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: <module>
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: __new__
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _check_date_fields
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _check_int_field
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _check_time_fields
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _check_tzinfo_arg
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _create
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _days_before_year
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: _days_in_month
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: date
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: datetime
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: time
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: timedelta
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: timedelta.__neg__
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: timezone
+filename: /usr/lib/python3.8/datetime.py, modulename: datetime, funcname: tzinfo
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: <dictcomp>
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: <genexpr>
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: <lambda>
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: <listcomp>
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: <setcomp>
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: EnumMeta.__call__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: EnumMeta.__getattr__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: EnumMeta.__setattr__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: EnumMeta._convert_
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: EnumMeta._create_
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: IntFlag.__and__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: IntFlag.__or__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _EnumDict.__init__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _EnumDict.__setitem__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: __members__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: __new__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: __prepare__
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _create_pseudo_member_
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _decompose
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _find_data_type
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _find_new_
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _get_mixins_
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _high_bit
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _is_descriptor
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _is_dunder
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _is_sunder
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _missing_
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: _power_of_two
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: name
+filename: /usr/lib/python3.8/enum.py, modulename: enum, funcname: value
+filename: /usr/lib/python3.8/functools.py, modulename: functools, funcname: update_wrapper
+filename: /usr/lib/python3.8/functools.py, modulename: functools, funcname: wraps
+filename: /usr/lib/python3.8/linecache.py, modulename: linecache, funcname: checkcache
+filename: /usr/lib/python3.8/linecache.py, modulename: linecache, funcname: getline
+filename: /usr/lib/python3.8/linecache.py, modulename: linecache, funcname: getlines
+filename: /usr/lib/python3.8/linecache.py, modulename: linecache, funcname: lazycache
+filename: /usr/lib/python3.8/linecache.py, modulename: linecache, funcname: updatecache
+filename: /usr/lib/python3.8/pprint.py, modulename: pprint, funcname: <module>
+filename: /usr/lib/python3.8/pprint.py, modulename: pprint, funcname: PrettyPrinter
+filename: /usr/lib/python3.8/pprint.py, modulename: pprint, funcname: _safe_key
+filename: /usr/lib/python3.8/random.py, modulename: random, funcname: <module>
+filename: /usr/lib/python3.8/random.py, modulename: random, funcname: Random
+filename: /usr/lib/python3.8/random.py, modulename: random, funcname: Random.__init__
+filename: /usr/lib/python3.8/random.py, modulename: random, funcname: Random.seed
+filename: /usr/lib/python3.8/random.py, modulename: random, funcname: SystemRandom
+filename: /usr/lib/python3.8/random.py, modulename: random, funcname: __init_subclass__
+filename: /usr/lib/python3.8/re.py, modulename: re, funcname: _compile
+filename: /usr/lib/python3.8/re.py, modulename: re, funcname: compile
+filename: /usr/lib/python3.8/re.py, modulename: re, funcname: escape
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: <module>
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: BaseSelector
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: EpollSelector
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: PollSelector
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: SelectSelector
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: _BaseSelectorImpl
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: _PollLikeSelector
+filename: /usr/lib/python3.8/selectors.py, modulename: selectors, funcname: _SelectorMapping
+filename: /usr/lib/python3.8/signal.py, modulename: signal, funcname: <lambda>
+filename: /usr/lib/python3.8/signal.py, modulename: signal, funcname: <module>
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: <listcomp>
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _code
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _combine_flags
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _compile
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _compile_charset
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _compile_info
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _generate_overlap_table
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _get_charset_prefix
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _get_iscased
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _get_literal_prefix
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _mk_bitmap
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _optimize_charset
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: _simple
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: compile
+filename: /usr/lib/python3.8/sre_compile.py, modulename: sre_compile, funcname: isstring
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: State.__init__
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: State.checkgroup
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: State.checklookbehindgroup
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: State.closegroup
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: State.opengroup
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: SubPattern.__getitem__
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: SubPattern.__init__
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: SubPattern.__len__
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: SubPattern.__setitem__
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: SubPattern.append
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: SubPattern.getwidth
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.__init__
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.__next
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.get
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.getuntil
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.match
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.seek
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: Tokenizer.tell
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: _class_escape
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: _escape
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: _parse
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: _parse_flags
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: _parse_sub
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: _uniq
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: fix_flags
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: groups
+filename: /usr/lib/python3.8/sre_parse.py, modulename: sre_parse, funcname: parse
+filename: /usr/lib/python3.8/string.py, modulename: string, funcname: <module>
+filename: /usr/lib/python3.8/string.py, modulename: string, funcname: Formatter
+filename: /usr/lib/python3.8/string.py, modulename: string, funcname: Template
+filename: /usr/lib/python3.8/string.py, modulename: string, funcname: _TemplateMetaclass
+filename: /usr/lib/python3.8/string.py, modulename: string, funcname: _TemplateMetaclass.__init__
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: <module>
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: CalledProcessError
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: CompletedProcess
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: Popen
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: SubprocessError
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: TimeoutExpired
+filename: /usr/lib/python3.8/subprocess.py, modulename: subprocess, funcname: _use_posix_spawn
+filename: /usr/lib/python3.8/tempfile.py, modulename: tempfile, funcname: <module>
+filename: /usr/lib/python3.8/tempfile.py, modulename: tempfile, funcname: SpooledTemporaryFile
+filename: /usr/lib/python3.8/tempfile.py, modulename: tempfile, funcname: TemporaryDirectory
+filename: /usr/lib/python3.8/tempfile.py, modulename: tempfile, funcname: _RandomNameSequence
+filename: /usr/lib/python3.8/tempfile.py, modulename: tempfile, funcname: _TemporaryFileCloser
+filename: /usr/lib/python3.8/tempfile.py, modulename: tempfile, funcname: _TemporaryFileWrapper
+filename: /usr/lib/python3.8/tokenize.py, modulename: tokenize, funcname: _get_normal_name
+filename: /usr/lib/python3.8/tokenize.py, modulename: tokenize, funcname: detect_encoding
+filename: /usr/lib/python3.8/tokenize.py, modulename: tokenize, funcname: find_cookie
+filename: /usr/lib/python3.8/tokenize.py, modulename: tokenize, funcname: open
+filename: /usr/lib/python3.8/tokenize.py, modulename: tokenize, funcname: read_or_stop
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: <module>
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: FrameSummary
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: FrameSummary.__getitem__
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: FrameSummary.__init__
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: StackSummary
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: TracebackException
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: extract
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: extract_stack
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: line
+filename: /usr/lib/python3.8/traceback.py, modulename: traceback, funcname: walk_stack
+filename: /usr/lib/python3.8/types.py, modulename: types, funcname: DynamicClassAttribute.__get__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: ModuleSpec.__init__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ImportLockContext.__enter__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ImportLockContext.__exit__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ModuleLock.__init__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ModuleLock.acquire
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ModuleLock.release
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ModuleLockManager.__enter__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ModuleLockManager.__exit__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _ModuleLockManager.__init__
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _call_with_frames_removed
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _find_and_load
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _find_and_load_unlocked
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _find_spec
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _get_module_lock
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _handle_fromlist
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _init_module_attrs
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _load_unlocked
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _lock_unlock_module
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _new_module
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _requires_builtin_wrapper
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: _verbose_message
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: cached
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: cb
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: create_module
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: exec_module
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: find_spec
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: has_location
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: is_package
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: module_from_spec
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: parent
+filename: <frozen importlib._bootstrap>, modulename: <frozen importlib, funcname: spec_from_loader
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: <genexpr>
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: <listcomp>
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: FileFinder.__init__
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: FileFinder._fill_cache
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: FileFinder._get_spec
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: FileFinder.find_spec
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: FileLoader.__init__
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: FileLoader.get_data
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: SourceFileLoader.path_stats
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: SourceLoader.get_code
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _LoaderBasics.create_module
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _check_name_wrapper
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _classify_pyc
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _compile_bytecode
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _get_cached
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _get_spec
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_hooks
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_importer_cache
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_is_mode_type
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_isdir
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_isfile
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_join
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_split
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _path_stat
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _relax_case
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _unpack_uint32
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: _validate_timestamp_pyc
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: cache_from_source
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: exec_module
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: find_spec
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: get_filename
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: path_hook_for_FileFinder
+filename: <frozen importlib._bootstrap_external>, modulename: <frozen importlib, funcname: spec_from_file_location
+filename: <frozen zipimport>, modulename: <frozen zipimport>, funcname: zipimporter.__init__
+filename: <string>, modulename: <string>, funcname: <module>

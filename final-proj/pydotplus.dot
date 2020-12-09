@@ -1,0 +1,803 @@
+digraph G {
+    graph [rankdir=TB, clusterrank="local"];
+    subgraph cluster_G {
+
+        graph [style="filled,rounded",fillcolor="#80808018", label=""];
+        pydotplus__graphXviz [label="pydotplus.graphviz", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="0"];
+        pydotplus__parser [label="pydotplus.parser", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="1"];
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Cluster [label="Cluster\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1721)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Common [label="Common\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:643)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Dot [label="Dot\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1770)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Edge [label="Edge\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:897)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Error [label="Error\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:767)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Graph [label="Graph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1075)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__InvocationException [label="InvocationException\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:777)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__Node [label="Node\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:789)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__SubgraphX [label="Subgraph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1674)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz____find_executables [label="__find_executables\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:433)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__find_graphXviz [label="find_graphviz\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:489)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__frozendict [label="frozendict\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:170)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__get_fobj [label="get_fobj\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:124)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__graphX_from_adjacency_matrix [label="graph_from_adjacency_matrix\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:355)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__graphX_from_dot_data [label="graph_from_dot_data\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:294)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__graphX_from_dot_file [label="graph_from_dot_file\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:305)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__graphX_from_edges [label="graph_from_edges\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:320)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__graphX_from_incidence_matrix [label="graph_from_incidence_matrix\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:394)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__is_string_like [label="is_string_like\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:115)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__needs_quotes [label="needs_quotes\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:231)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz"];
+            pydotplus__graphXviz__quote_if_necessary [label="quote_if_necessary\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:267)", style="filled", fillcolor="#ff9999b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Cluster {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Cluster"];
+            pydotplus__graphXviz__Cluster____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1752)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common____get_attribute__ [label="__get_attribute__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:660)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common____getstate__ [label="__getstate__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:650)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common____setstate__ [label="__setstate__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:656)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__create_attribute_methods [label="create_attribute_methods\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:747)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__get [label="get\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:721)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__get_attributes [label="get_attributes\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:734)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__get_parent_graphX [label="get_parent_graph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:704)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__get_sequence [label="get_sequence\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:743)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__set [label="set\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:708)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__set_parent_graphX [label="set_parent_graph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:700)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Common {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Common"];
+            pydotplus__graphXviz__Common__set_sequence [label="set_sequence\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:739)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot____getstate__ [label="__getstate__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1819)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1778)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot____setstate__ [label="__setstate__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1822)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot__create [label="create\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1925)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot__set_graphXviz_executables [label="set_graphviz_executables\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1852)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot__set_prog [label="set_prog\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1844)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot__set_shape_files [label="set_shape_files\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1825)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Dot {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Dot"];
+            pydotplus__graphXviz__Dot__write [label="write\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1868)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge____eq__ [label="__eq__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:969)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge____hash__ [label="__hash__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:966)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:923)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge__get_destination [label="get_destination\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:961)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge__get_source [label="get_source\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:956)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge__parse_node_ref [label="parse_node_ref\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1001)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Edge {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Edge"];
+            pydotplus__graphXviz__Edge__to_string [label="to_string\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1027)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Error {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Error"];
+            pydotplus__graphXviz__Error____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:770)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Error {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Error"];
+            pydotplus__graphXviz__Error____str__ [label="__str__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:773)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1111)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__add_edge [label="add_edge\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1374)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__add_node [label="add_node\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1269)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__add_subgraphXX [label="add_subgraph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1498)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__del_edge [label="del_edge\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1399)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__del_node [label="del_node\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1298)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_edge [label="get_edge\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1440)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_edge_defaults [label="get_edge_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1184)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_edge_list [label="get_edge_list\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1480)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_edges [label="get_edges\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1477)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_graphX_defaults [label="get_graph_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1161)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_graphX_type [label="get_graph_type\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1145)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_name [label="get_name\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1225)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_next_sequence_number [label="get_next_sequence_number\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1264)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_node [label="get_node\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1329)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_node_defaults [label="get_node_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1173)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_node_list [label="get_node_list\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1356)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_nodes [label="get_nodes\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1351)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_simplify [label="get_simplify\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1202)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_strict [label="get_strict\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1238)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_subgraphXX [label="get_subgraph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1524)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_subgraphXX_list [label="get_subgraph_list\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1548)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_subgraphXXs [label="get_subgraphs\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1545)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_suppress_disconnected [label="get_suppress_disconnected\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1256)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_top_graphX_type [label="get_top_graph_type\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1148)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__get_type [label="get_type\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1215)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_edge_defaults [label="set_edge_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1181)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_graphX_defaults [label="set_graph_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1158)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_name [label="set_name\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1220)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_node_defaults [label="set_node_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1170)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_parent_graphX [label="set_parent_graph\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1566)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_simplify [label="set_simplify\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1192)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_strict [label="set_strict\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1230)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_suppress_disconnected [label="set_suppress_disconnected\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1246)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__set_type [label="set_type\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1210)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Graph {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Graph"];
+            pydotplus__graphXviz__Graph__to_string [label="to_string\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1582)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__InvocationException {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.InvocationException"];
+            pydotplus__graphXviz__InvocationException____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:782)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__InvocationException {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.InvocationException"];
+            pydotplus__graphXviz__InvocationException____str__ [label="__str__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:785)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Node {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Node"];
+            pydotplus__graphXviz__Node____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:802)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Node {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Node"];
+            pydotplus__graphXviz__Node__add_style [label="add_style\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:854)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Node {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Node"];
+            pydotplus__graphXviz__Node__get_name [label="get_name\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:844)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Node {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Node"];
+            pydotplus__graphXviz__Node__get_port [label="get_port\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:849)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Node {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Node"];
+            pydotplus__graphXviz__Node__set_name [label="set_name\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:839)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__Node {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Node"];
+            pydotplus__graphXviz__Node__to_string [label="to_string\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:865)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__SubgraphX {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.Subgraph"];
+            pydotplus__graphXviz__SubgraphX____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:1708)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__find_graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.find_graphviz"];
+            pydotplus__graphXviz__find_graphXviz__RegOpenKeyEx [label="RegOpenKeyEx\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:534)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__find_graphXviz {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.find_graphviz"];
+            pydotplus__graphXviz__find_graphXviz__RegQueryValueEx [label="RegQueryValueEx\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:541)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__frozendict {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.frozendict"];
+            pydotplus__graphXviz__frozendict____hash__ [label="__hash__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:208)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__frozendict {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.frozendict"];
+            pydotplus__graphXviz__frozendict____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:205)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__frozendict {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.frozendict"];
+            pydotplus__graphXviz__frozendict____new__ [label="__new__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:178)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__frozendict {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.frozendict"];
+            pydotplus__graphXviz__frozendict____repr__ [label="__repr__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:215)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__graphXviz__frozendict {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.graphviz.frozendict"];
+            pydotplus__graphXviz__frozendict___blocked_attribute [label="_blocked_attribute\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py:171)", style="filled", fillcolor="#ff6565b2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__DefaultStatement [label="DefaultStatement\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:76)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__P_AttrList [label="P_AttrList\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:55)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__add_defaults [label="add_defaults\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:182)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__add_elements [label="add_elements\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:189)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__do_node_ports [label="do_node_ports\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:298)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__get_port [label="get_port\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:289)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__graphX_definition [label="graph_definition\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:383)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__parse_dot_data [label="parse_dot_data\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:528)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_attr_list [label="push_attr_list\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:284)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_default_stmt [label="push_default_stmt\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:268)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_edge_stmt [label="push_edge_stmt\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:307)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_graphX_stmt [label="push_graph_stmt\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:245)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_node_stmt [label="push_node_stmt\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:364)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_subgraphXX_stmt [label="push_subgraph_stmt\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:251)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__push_top_graphX_stmt [label="push_top_graph_stmt\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:92)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser"];
+            pydotplus__parser__update_parent_graphX_hierarchy [label="update_parent_graph_hierarchy\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:140)", style="filled", fillcolor="#99ff99b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser__DefaultStatement {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser.DefaultStatement"];
+            pydotplus__parser__DefaultStatement____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:78)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser__DefaultStatement {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser.DefaultStatement"];
+            pydotplus__parser__DefaultStatement____repr__ [label="__repr__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:82)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser__P_AttrList {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser.P_AttrList"];
+            pydotplus__parser__P_AttrList____init__ [label="__init__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:57)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser__P_AttrList {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser.P_AttrList"];
+            pydotplus__parser__P_AttrList____repr__ [label="__repr__\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:72)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_pydotplus__parser__graphX_definition {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="pydotplus.parser.graph_definition"];
+            pydotplus__parser__graphX_definition__parse_html [label="parse_html\n(/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py:424)", style="filled", fillcolor="#65ff65b2", fontcolor="#000000", group="1"];
+        }
+    }
+        pydotplus__graphXviz -> pydotplus__graphXviz__Common__set [style="solid", color="#000000"];
+        pydotplus__graphXviz__get_fobj -> pydotplus__graphXviz__is_string_like [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict -> pydotplus__graphXviz__frozendict___blocked_attribute [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__parser__P_AttrList____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__Graph____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__frozendict____new__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__Error____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__InvocationException____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__frozendict____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____new__ -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____repr__ -> pydotplus__parser__P_AttrList____repr__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__frozendict____repr__ -> pydotplus__graphXviz__frozendict____repr__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__needs_quotes -> pydotplus__graphXviz__needs_quotes [style="solid", color="#000000"];
+        pydotplus__graphXviz__quote_if_necessary -> pydotplus__graphXviz__needs_quotes [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_dot_data -> pydotplus__parser__parse_dot_data [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_dot_file -> pydotplus__graphXviz__graphX_from_dot_data [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_edges -> pydotplus__graphXviz__Dot [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_edges -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_edges -> pydotplus__graphXviz__Dot____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_edges -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_edges -> pydotplus__graphXviz__Graph__add_edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_adjacency_matrix -> pydotplus__graphXviz__Dot [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_adjacency_matrix -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_adjacency_matrix -> pydotplus__graphXviz__Dot____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_adjacency_matrix -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_adjacency_matrix -> pydotplus__graphXviz__Graph__add_edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_incidence_matrix -> pydotplus__graphXviz__Graph__set_simplify [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_incidence_matrix -> pydotplus__graphXviz__Dot [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_incidence_matrix -> pydotplus__graphXviz__Dot____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_incidence_matrix -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_incidence_matrix -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__graphX_from_incidence_matrix -> pydotplus__graphXviz__Graph__add_edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__find_graphXviz -> pydotplus__graphXviz__find_graphXviz__RegOpenKeyEx [style="solid", color="#000000"];
+        pydotplus__graphXviz__find_graphXviz -> pydotplus__graphXviz__find_graphXviz__RegQueryValueEx [style="solid", color="#000000"];
+        pydotplus__graphXviz__find_graphXviz -> pydotplus__graphXviz____find_executables [style="solid", color="#000000"];
+        pydotplus__graphXviz__Common____get_attribute__ -> pydotplus__graphXviz__Common__get [style="solid", color="#000000"];
+        pydotplus__graphXviz__Common____get_attribute__ -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Common__get -> pydotplus__graphXviz__Common__get [style="solid", color="#000000"];
+        pydotplus__graphXviz__Common__create_attribute_methods -> pydotplus__graphXviz__Common____get_attribute__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Node -> pydotplus__graphXviz__Common [style="solid", color="#000000"];
+        pydotplus__graphXviz__Node____init__ -> pydotplus__graphXviz__Common__set [style="solid", color="#000000"];
+        pydotplus__graphXviz__Node____init__ -> pydotplus__graphXviz__Common__create_attribute_methods [style="solid", color="#000000"];
+        pydotplus__graphXviz__Node____init__ -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Node__add_style -> pydotplus__graphXviz__Common__get [style="solid", color="#000000"];
+        pydotplus__graphXviz__Node__to_string -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge -> pydotplus__graphXviz__Common [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____init__ -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____init__ -> pydotplus__graphXviz__Common__set [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____init__ -> pydotplus__graphXviz__Common__create_attribute_methods [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____init__ -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____hash__ -> pydotplus__graphXviz__Edge__get_source [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____hash__ -> pydotplus__graphXviz__Edge__get_destination [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____eq__ -> pydotplus__graphXviz__Error [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____eq__ -> pydotplus__graphXviz__Error____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____eq__ -> pydotplus__graphXviz__Edge__get_destination [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____eq__ -> pydotplus__graphXviz__Edge__get_source [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge____eq__ -> pydotplus__graphXviz__Graph__get_top_graphX_type [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__parse_node_ref -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__frozendict [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Node__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Graph__get_top_graphX_type [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Graph__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Edge__get_destination [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Edge__get_source [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Edge__parse_node_ref [style="solid", color="#000000"];
+        pydotplus__graphXviz__Edge__to_string -> pydotplus__graphXviz__Edge__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph -> pydotplus__graphXviz__Common [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph____init__ -> pydotplus__graphXviz__Error [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph____init__ -> pydotplus__graphXviz__Graph__set_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph____init__ -> pydotplus__graphXviz__Error____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph____init__ -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph____init__ -> pydotplus__graphXviz__Common__set [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph____init__ -> pydotplus__graphXviz__Common__create_attribute_methods [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_top_graphX_type -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_graphX_defaults -> pydotplus__graphXviz__Graph__add_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_graphX_defaults -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_graphX_defaults -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_graphX_defaults -> pydotplus__graphXviz__Graph__get_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_node_defaults -> pydotplus__graphXviz__Graph__add_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_node_defaults -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_node_defaults -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_node_defaults -> pydotplus__graphXviz__Graph__get_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_edge_defaults -> pydotplus__graphXviz__Graph__add_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_edge_defaults -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_edge_defaults -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge_defaults -> pydotplus__graphXviz__Graph__get_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_node -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_node -> pydotplus__graphXviz__Graph__get_next_sequence_number [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_node -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_node -> pydotplus__graphXviz__Graph__get_node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__del_node -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_node -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_node -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_nodes -> pydotplus__graphXviz__Graph__get_node_list [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_node_list -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_node_list -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_edge -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_edge -> pydotplus__graphXviz__Graph__get_next_sequence_number [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_edge -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__del_edge -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge -> pydotplus__graphXviz__Common__get [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge -> pydotplus__graphXviz__Graph__get_top_graphX_type [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edges -> pydotplus__graphXviz__Graph__get_edge_list [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge_list -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_edge_list -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_subgraphXX -> pydotplus__graphXviz__SubgraphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_subgraphXX -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_subgraphXX -> pydotplus__graphXviz__Cluster [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__add_subgraphXX -> pydotplus__graphXviz__Graph__get_next_sequence_number [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_subgraphXX -> pydotplus__graphXviz__SubgraphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_subgraphXX -> pydotplus__graphXviz__SubgraphX____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_subgraphXX -> pydotplus__graphXviz__Common__get [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_subgraphXXs -> pydotplus__graphXviz__Graph__get_subgraphXX_list [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_subgraphXX_list -> pydotplus__graphXviz__SubgraphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__get_subgraphXX_list -> pydotplus__graphXviz__SubgraphX____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__set_parent_graphX -> pydotplus__graphXviz__Common__set_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Node__get_name [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__SubgraphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__SubgraphX____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Common__set [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Common__get [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Node__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Graph__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Edge____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Node [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__quote_if_necessary [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Edge [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Node____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Graph__to_string -> pydotplus__graphXviz__Edge__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__SubgraphX -> pydotplus__graphXviz__Graph [style="solid", color="#000000"];
+        pydotplus__graphXviz__SubgraphX____init__ -> pydotplus__graphXviz__Graph____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Cluster -> pydotplus__graphXviz__Graph [style="solid", color="#000000"];
+        pydotplus__graphXviz__Cluster____init__ -> pydotplus__graphXviz__Common__set [style="solid", color="#000000"];
+        pydotplus__graphXviz__Cluster____init__ -> pydotplus__graphXviz__Common__create_attribute_methods [style="solid", color="#000000"];
+        pydotplus__graphXviz__Cluster____init__ -> pydotplus__graphXviz__Graph____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot -> pydotplus__graphXviz__Graph [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot____init__ -> pydotplus__graphXviz__Dot__write [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot____init__ -> pydotplus__graphXviz__Graph____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot____init__ -> pydotplus__graphXviz__Dot__create [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__write -> pydotplus__graphXviz__Graph__to_string [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__write -> pydotplus__graphXviz__Dot__create [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__write -> pydotplus__graphXviz__get_fobj [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__create -> pydotplus__graphXviz__InvocationException [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__create -> pydotplus__graphXviz__find_graphXviz [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__create -> pydotplus__graphXviz__InvocationException____init__ [style="solid", color="#000000"];
+        pydotplus__graphXviz__Dot__create -> pydotplus__graphXviz__Dot__write [style="solid", color="#000000"];
+        pydotplus__parser__DefaultStatement -> pydotplus__parser__P_AttrList [style="solid", color="#000000"];
+        pydotplus__parser__push_top_graphX_stmt -> pydotplus__parser__update_parent_graphX_hierarchy [style="solid", color="#000000"];
+        pydotplus__parser__push_top_graphX_stmt -> pydotplus__parser__add_elements [style="solid", color="#000000"];
+        pydotplus__parser__push_top_graphX_stmt -> pydotplus__parser__P_AttrList [style="solid", color="#000000"];
+        pydotplus__parser__update_parent_graphX_hierarchy -> pydotplus__graphXviz__Common__set_parent_graphX [style="solid", color="#000000"];
+        pydotplus__parser__update_parent_graphX_hierarchy -> pydotplus__graphXviz__Common__get_parent_graphX [style="solid", color="#000000"];
+        pydotplus__parser__add_elements -> pydotplus__parser__add_defaults [style="solid", color="#000000"];
+        pydotplus__parser__add_elements -> pydotplus__parser__add_elements [style="solid", color="#000000"];
+        pydotplus__parser__add_elements -> pydotplus__parser__P_AttrList [style="solid", color="#000000"];
+        pydotplus__parser__add_elements -> pydotplus__parser__DefaultStatement [style="solid", color="#000000"];
+        pydotplus__parser__push_graphX_stmt -> pydotplus__parser__add_elements [style="solid", color="#000000"];
+        pydotplus__parser__push_subgraphXX_stmt -> pydotplus__graphXviz__Graph__set_name [style="solid", color="#000000"];
+        pydotplus__parser__push_subgraphXX_stmt -> pydotplus__graphXviz__Node__set_name [style="solid", color="#000000"];
+        pydotplus__parser__push_default_stmt -> pydotplus__parser__DefaultStatement____init__ [style="solid", color="#000000"];
+        pydotplus__parser__push_default_stmt -> pydotplus__parser__DefaultStatement [style="solid", color="#000000"];
+        pydotplus__parser__push_attr_list -> pydotplus__parser__P_AttrList [style="solid", color="#000000"];
+        pydotplus__parser__push_attr_list -> pydotplus__parser__P_AttrList____init__ [style="solid", color="#000000"];
+        pydotplus__parser__push_edge_stmt -> pydotplus__parser__P_AttrList [style="solid", color="#000000"];
+        pydotplus__parser__push_edge_stmt -> pydotplus__parser__do_node_ports [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_subgraphXX_stmt [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_default_stmt [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_top_graphX_stmt [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_attr_list [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_edge_stmt [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_node_stmt [style="solid", color="#000000"];
+        pydotplus__parser__graphX_definition -> pydotplus__parser__push_graphX_stmt [style="solid", color="#000000"];
+        pydotplus__parser__parse_dot_data -> pydotplus__parser__graphX_definition [style="solid", color="#000000"];
+    }

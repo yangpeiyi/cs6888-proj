@@ -1,0 +1,9 @@
+Name                                                                    Stmts   Miss  Cover
+-------------------------------------------------------------------------------------------
+/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/__init__.py       3      0   100%
+/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/graphviz.py     783    577    26%
+/home/ubuntu/.local/lib/python3.8/site-packages/pydotplus/parser.py       300    127    58%
+/home/ubuntu/.local/lib/python3.8/site-packages/pyparsing.py             3062   1692    45%
+drivers/pydotplus_2.py                                                      3      0   100%
+-------------------------------------------------------------------------------------------
+TOTAL                                                                    4151   2396    42%
